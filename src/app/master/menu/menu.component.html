@@ -1,0 +1,19 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <!-- TODO: Adjust routerLink to understand how it works -->
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <a (click)="redirectToURL('/')" routerLinkActive="active">Home</a>
+      </li>
+      <li class="active">
+          <a (click)="redirectToURL('/about-us')" routerLinkActive="active">Sobre</a>
+        </li>
+      <li class="active">
+        <a (click)="redirectToURL('/contact-us')" routerLinkActive="active">Fale Conosco</a>
+      </li>
+    </ul>
+  </div>
+</nav>
